@@ -36,8 +36,8 @@ def main():
     model_r2_values = {
         "Regresion lineal": 0.7945, 
         "SVM": 0.8583,  
-        "Random forest": 0.9833,  
-        "Ensamble": 0.8711   
+        "Random forest": 0.8551,  
+        "Ensamble": 0.8747   
     }
 
     # Diccionario con las rutas de los modelos guardados
