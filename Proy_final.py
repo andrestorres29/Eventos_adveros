@@ -12,7 +12,7 @@ from PIL import Image
 import joblib
 
 def main():
-    st.title("Implementación con LR / SVM")
+    st.title("Proyecto final: implementacion de los modelos vistos")
     
     # Crear columnas para la imagen y los datos
     col1, col2, col3 = st.columns(3)
