@@ -44,7 +44,7 @@ def main():
     model_files = {
         "Regresion lineal": 'best_model_lineal.sav',
         "SVM": 'bestmodelSVM.sav',
-        "Random forest": 'Random_forrest.sav',
+        "Random forest": 'random_forest.sav',
         "Ensamble": 'stacked_regressor_modelo_comprimido.sav'
     }
 
