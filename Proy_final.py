@@ -45,7 +45,7 @@ def main():
         "Regresion lineal": 'best_model_lineal.sav',
         "SVM": 'bestmodelSVM.sav',
         "Random forest": 'Random_forrest.sav',
-        "Ensamble": 'stacked_regressor_model_comprimido.sav'
+        "Ensamble": 'stacked_regressor_modelo_comprimido.sav'
     }
 
     # Cargar el modelo seleccionado
