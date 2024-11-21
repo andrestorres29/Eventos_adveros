@@ -30,12 +30,12 @@ def main():
     
     with col3:
         psi_description = st.selectbox('Descripción PSI:', options=['Retained Surgical Item or Unretrieved Device Fragment', 'Iatrogenic Pneumothorax', 'Central Venous Catheter-Related Blood Stream Infection', 'Postoperative Wound Dehiscence', 'Accidental Puncture or Laceration', 'Transfusion Reaction', 'Perioperative Hemorrhage or Hematoma']) 
-        model_option = st.selectbox("Selecciona el modelo para la predicción:", options=["Regresion lineal", "SVM", "Random forest", "Ensamble"])
+        model_option = st.selectbox("Selecciona el modelo para la predicción:", options=["Regresion lineal", "SRM", "Random forest", "Ensamble"])
 
     # Diccionario con los modelos y sus valores de R²
     model_r2_values = {
         "Regresion lineal": 0.7945, 
-        "SVM": 0.8583,  
+        "SVR": 0.8583,  
         "Random forest": 0.8551,  
         "Ensamble": 0.8747   
     }
@@ -43,7 +43,7 @@ def main():
     # Diccionario con las rutas de los modelos guardados
     model_files = {
         "Regresion lineal": 'best_model_lineal.sav',
-        "SVM": 'bestmodelSVM.sav',
+        "SVR": 'bestmodelSVM.sav',
         "Random forest": 'random_forest.sav',
         "Ensamble": 'stacked_regressor_modelo.sav'
     }
