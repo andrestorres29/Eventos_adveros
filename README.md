@@ -51,5 +51,5 @@ XGBoost Regressor R^2: 0.8323
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/andrestorres29/Proyecto-final-eventos-adversos.git
+git clone https://github.com/andrestorres29/Eventos_adveros.git
 cd Proyecto-final-eventos-adversos
